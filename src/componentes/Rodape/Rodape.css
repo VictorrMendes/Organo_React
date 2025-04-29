@@ -1,0 +1,10 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
