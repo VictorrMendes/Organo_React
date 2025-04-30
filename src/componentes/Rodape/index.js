@@ -2,11 +2,17 @@
 import './Rodape.css'
 const Rodape = () => {
     return (
-        <section className='rodape'>
+        <section className='rodapeGeral'>
             <div className='redes'>
-                <img src='/imagens/fb.png' alt='Facebook' />
-                <img src='/imagens/tw.png' alt='Twiter' />
-                <img src='/imagens/ig.png' alt='Instagram' />
+                <a href="facebook.com" target="_blank">
+                    <img src="/imagens/fb.png" alt="" />
+                </a>
+                <a href="twitter.com" target="_blank">
+                    <img src="/imagens/tw.png" alt="" />
+                </a>
+                <a href="instagram.com" target="_blank">
+                    <img src="/imagens/ig.png" alt="" />
+                </a>
             </div>
 
             <div className='organo'>
